@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { image } = req.body;
+    const { image, language } = req.body;
 
     if (!image) {
       return res.status(400).json({ error: 'No image provided' });
@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     const base64Data = image.replace(/^data:image\/\w+;base64,/, '');
 
     const formData = new FormData();
-    formData.append('language', 'eng');
+    formData.append('language', language || 'ara');
     formData.append('isOverlayRequired', 'false');
     formData.append('base64Image', base64Data);
     formData.append('iscreatesearchablepdf', 'false');
