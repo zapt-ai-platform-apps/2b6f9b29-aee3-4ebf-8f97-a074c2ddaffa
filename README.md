@@ -1,47 +1,47 @@
-# New App
+# تطبيق جديد
 
-## Description
+## الوصف
 
-New App is a user-friendly application that allows you to extract text from images. Simply upload an image containing text, and the app will use Optical Character Recognition (OCR) technology to extract and display the text for you.
+"تطبيق جديد" هو تطبيق سهل الاستخدام يتيح لك استخراج النص من الصور. ببساطة قم بتحميل صورة تحتوي على نص، وسيستخدم التطبيق تقنية التعرف الضوئي على الحروف (OCR) لاستخراج النص وعرضه لك.
 
-## User Journey
+## رحلة المستخدم
 
-1. **Access the App**
+1. **الدخول إلى التطبيق**
 
-   - Open the application in your web browser. You'll be greeted with a simple and clean interface.
+   - افتح التطبيق في متصفح الويب الخاص بك. سترى واجهة بسيطة ونظيفة.
 
-2. **Upload an Image**
+2. **تحميل صورة**
 
-   - Click on the "Choose File" button to select an image from your device. The app accepts images in formats such as JPEG, PNG, GIF, etc.
-   - Once you've selected an image, a preview of the image will be displayed on the screen.
+   - انقر على زر "اختيار ملف" لتحديد صورة من جهازك. يقبل التطبيق الصور بصيغ مثل JPEG وPNG وGIF وغيرها.
+   - بمجرد اختيارك لصورة، سيتم عرض معاينة للصورة على الشاشة.
 
-3. **Extract Text from Image**
+3. **استخراج النص من الصورة**
 
-   - Click the "Extract Text" button to initiate the text extraction process.
-   - While the app is processing, the "Extract Text" button will indicate that it's working, and you won't be able to click it again until it's done. This prevents multiple submissions.
+   - انقر على زر "استخراج النص" لبدء عملية استخراج النص.
+   - أثناء معالجة التطبيق، سيشير زر "استخراج النص" إلى أنه يعمل، ولن تتمكن من النقر عليه مرة أخرى حتى ينتهي. هذا يمنع التقديم المتعدد.
 
-4. **View Extracted Text**
+4. **عرض النص المستخرج**
 
-   - After a short moment, the extracted text will appear below the button.
-   - The text is displayed in a readable format, preserving line breaks where applicable.
+   - بعد لحظات قليلة، سيظهر النص المستخرج أسفل الزر.
+   - يتم عرض النص بتنسيق قابل للقراءة، مع الحفاظ على فواصل الأسطر حيثما أمكن.
 
-5. **Repeat as Needed**
+5. **التكرار حسب الحاجة**
 
-   - If you wish to extract text from another image, you can repeat the process by selecting a new image.
+   - إذا كنت ترغب في استخراج النص من صورة أخرى، يمكنك تكرار العملية عن طريق تحديد صورة جديدة.
 
-## Features
+## الميزات
 
-- **Image Preview**: See a preview of the image you've selected before extracting text.
-- **Loading State**: The app provides visual feedback during the extraction process.
-- **Error Handling**: If there's an issue with the extraction, an error message will be displayed.
-- **Responsive Design**: The app is responsive and works well on various screen sizes, from mobile devices to desktops.
+- **معاينة الصورة**: شاهد معاينة للصورة التي اخترتها قبل استخراج النص.
+- **حالة التحميل**: يوفر التطبيق تغذية بصرية مرتدة أثناء عملية الاستخراج.
+- **معالجة الأخطاء**: إذا كان هناك مشكلة في الاستخراج، سيتم عرض رسالة خطأ.
+- **تصميم متجاوب**: التطبيق متجاوب ويعمل بشكل جيد على مختلف أحجام الشاشات، من الأجهزة المحمولة إلى أجهزة الكمبيوتر المكتبية.
 
-## External Services
+## الخدمات الخارجية
 
-- **OCR.space API**: The app uses the OCR.space API to perform the text extraction from images.
+- **واجهة برمجة التطبيقات OCR.space**: يستخدم التطبيق واجهة برمجة التطبيقات OCR.space لأداء استخراج النص من الصور.
 
-## Environment Variables
+## متغيرات البيئة
 
-The app requires the following environment variable:
+يتطلب التطبيق متغير البيئة التالي:
 
-- `OCR_SPACE_API_KEY`: API key for the OCR.space service.
+- `OCR_SPACE_API_KEY`: مفتاح API لخدمة OCR.space.
